@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0BFFB"
+    android:orientation="vertical"
+    android:paddingVertical="30dp"
+    android:paddingHorizontal="40dp"
+    tools:context=".UserProfile">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.3"
+        android:src="@drawable/profile" />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="28dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:fontFamily="@font/title1"
+    android:text="User Profile"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@color/ListColor"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingVertical="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="Name : "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:fontFamily="@font/text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@color/ListColor"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingVertical="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="Acc. NO : "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/acc_No"
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@color/ListColor"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingVertical="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="IFSC : "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ifsc"
+                    android:fontFamily="@font/text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@color/ListColor"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingVertical="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="Email : "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@color/ListColor"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingVertical="5dp"
+                    android:fontFamily="@font/text"
+                    android:paddingLeft="15dp"
+                    android:text="Balance : "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/balance"
+                    android:fontFamily="@font/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="Rs."
+                    android:fontFamily="@font/text"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@color/ListColor"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/text"
+                    android:paddingVertical="5dp"
+                    android:paddingLeft="15dp"
+                    android:text="Mo. No. : "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/moNo"
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginVertical="10dp"
+                android:background="@color/ListColor"
+                android:orientation="horizontal"
+                android:paddingVertical="5dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:paddingVertical="5dp"
+                    android:fontFamily="@font/text"
+                    android:paddingLeft="15dp"
+                    android:text="City : "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/text"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.3">
+
+        <Button
+            android:id="@+id/Transfer"
+            android:textColor="#FFFFFF"
+            android:background="#2E068A"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:fontFamily="@font/title1"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="Transefer MOney" />
+    </LinearLayout>
+
+</LinearLayout>

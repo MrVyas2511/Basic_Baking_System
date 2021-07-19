@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#5D4CF3"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="2dp"
+    android:background="#73C5E1"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="14dp"
+        android:fontFamily="@font/text"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold"
+        android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date/Time "/>
+    <TextView
+        android:id="@+id/timetext"
+        android:fontFamily="@font/text"
+        android:textSize="14dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="7/12/2222 25:34 "/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:textColor="@color/ColorBlack"
+            android:textStyle="bold"
+            android:fontFamily="@font/text"
+            android:text="From"
+            android:textSize="14dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/FromName"
+            android:layout_width="0dp"
+            android:fontFamily="@font/text"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="Xyz"
+            android:textSize="14dp" />
+        <TextView
+            android:textColor="@color/ColorBlack"
+            android:textStyle="bold"
+            android:fontFamily="@font/text"
+            android:text="Amount"
+            android:textSize="14dp"
+            android:gravity="right"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:text="To"
+            android:fontFamily="@font/text"
+            android:textColor="@color/ColorBlack"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/ToName"
+            android:text="Abc"
+            android:fontFamily="@font/text"
+            android:layout_gravity="right"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+        <TextView
+            android:id="@+id/AmountText"
+            android:text="1000"
+            android:textSize="14dp"
+            android:fontFamily="@font/text"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text=" Rs."
+            android:textSize="14dp"
+            android:fontFamily="@font/text"
+            android:paddingHorizontal="5dp"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1E5ED"
+    tools:context=".User_Activity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="#3026B6"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="@font/title1"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" User List "/>
+
+    <ListView
+        android:layout_margin="10dp"
+
+        android:layout_below="@+id/header"
+        android:dividerHeight="10.0sp"
+        android:divider="#ffffff"
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
