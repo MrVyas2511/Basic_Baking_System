@@ -1,8 +1,8 @@
 # Basic_Baking_System
 Hello everyone,
-This is the Basic Banking system created by me as part of The spark foundation internship. The user can do a trasaction between two users and the history of the transaction can  see in the payment History section.
+This is the Basic Banking system created by me as part of The spark foundation internship. 
 
-
+In this app, user can do a trasaction between two users and the history of the transaction can  see in the payment History section.
 Transaction history stores the data of successful transaction and failed transactions.
 
 ## Work FLow
